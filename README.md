@@ -1,4 +1,4 @@
-
+[![Build Status](https://dev.azure.com/SergeAloyan/MyProject/_apis/build/status%2Fcaps-as.pipelines-java?branchName=main)](https://dev.azure.com/SergeAloyan/MyProject/_build/latest?definitionId=2&branchName=main)
 # Contributing
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
