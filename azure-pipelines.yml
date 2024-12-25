@@ -5,9 +5,18 @@
 
 trigger:
 - main
+strategy:
+ matrix:
+  linux:
+   imageName: "ubuntu-latest"
+  windows:
+   imageName: "windows-latest"
+  mac:
+   imageName: "macOS-latest"
+ maxParallel: 3
 
 pool:
-  vmImage: ubuntu-latest
+  vmImage: $(imageName)
 
 steps:
 - task: Maven@3
